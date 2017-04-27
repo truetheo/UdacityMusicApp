@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TheoMusicApp</string>
+    <string name="artistBox">Artists</string>
+    <string name="albumBox">Albums</string>
+    <string name="songsBox">Songs</string>
+    <string name="nowPlaying">Now playing</string>
+    <string name="playlists">PlayLists</string>
+    <string name="appInfo">App info</string>
+</resources>
