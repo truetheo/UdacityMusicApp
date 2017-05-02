@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/generalBackground"
+    tools:context="com.example.a.theomusicapp.AppInfoActivity">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nowPlayingApp"
+                style="@style/boxStyleOdd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/nowPlaying"
+                />
+
+            <TextView
+                android:id="@+id/playListApp"
+                style="@style/boxStyleOdd"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/playlists"
+                />
+
+            <TextView
+                android:id="@+id/artistsApp"
+                style="@style/boxStyleOdd"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/artistBox"
+                />
+
+            <TextView
+                android:id="@+id/albumsApp"
+                style="@style/boxStyleOdd"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/albumBox"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:text="@string/songsBox"
+                style="@style/boxStyleOdd"
+                android:id="@+id/songsApp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:text="@string/appInfo"
+                style="@style/boxStyleOdd"
+                android:id="@+id/appInfoApp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appInfoText"
+        style="@style/infoBox"/>
+</LinearLayout>

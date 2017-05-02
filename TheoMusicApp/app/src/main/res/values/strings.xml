@@ -6,4 +6,16 @@
     <string name="nowPlaying">Now playing</string>
     <string name="playlists">PlayLists</string>
     <string name="appInfo">App info</string>
+    <string name="nowPlayingText">In this view you can listen to your favourite song and perform simple actions on it.</string>
+    <string name="openingNowPlaying">Opening Now Playing option</string>
+    <string name="openingPlayList">Opening Play List option</string>
+    <string name="openingArtists">Opening Artists option</string>
+    <string name="openingAlbums">Opening Albums option</string>
+    <string name="openingSongs">Opening Songs option</string>
+    <string name="openingAppInfo">Opening App Info option</string>
+    <string name="playListText">In this view you can customize your playlists and play them!</string>
+    <string name="artistsText">Select songs to play categorised by your favourite artist.</string>
+    <string name="albumsText">All your albums can be viewed on this screen.</string>
+    <string name="songsText">No filters! All your music storage here!</string>
+    <string name="appInfoText">theoMusicApp is brought to you by \ntheoCoding \u00A9 2017 \nThank you for downloading and please Rate my app!</string>
 </resources>
