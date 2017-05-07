@@ -27,6 +27,7 @@
         <item name="android:textColor">@color/mainTextWhite</item>
         <item name="android:padding">5dp</item>
         <item name="android:layout_margin">3dp</item>
+        <item name="android:gravity">fill</item>
     </style>
     <style name="generalBackground">
         <item name="android:background">@color/mainLightGray</item>

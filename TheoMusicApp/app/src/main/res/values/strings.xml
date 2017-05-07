@@ -6,7 +6,7 @@
     <string name="nowPlaying">Now playing</string>
     <string name="playlists">PlayLists</string>
     <string name="appInfo">App info</string>
-    <string name="nowPlayingText">In this view you can listen to your favourite song and perform simple actions on it.</string>
+    <string name="nowPlayingText">In this view you can listen to your favourite song and perform simple actions on it. This activity would include implementing MediaPlayer class. This class is initialized in this activity and uses AudioManager to manage sources of the audio files. The MediaPlayer.start() is initialized when User clicks the play ImageView. Start/Stop depends of the Paused boolean state. MediaPlayer is connected to the SeekBar with usage of max Duration. A handler is then setting the position on the SeekBar. </string>
     <string name="openingNowPlaying">Opening Now Playing option</string>
     <string name="openingPlayList">Opening Play List option</string>
     <string name="openingArtists">Opening Artists option</string>
@@ -17,5 +17,5 @@
     <string name="artistsText">Select songs to play categorised by your favourite artist.</string>
     <string name="albumsText">All your albums can be viewed on this screen.</string>
     <string name="songsText">No filters! All your music storage here!</string>
-    <string name="appInfoText">theoMusicApp is brought to you by \ntheoCoding \u00A9 2017 \nThank you for downloading! \nPlease Rate my app!</string>
+    <string name="appInfoText">theoMusicApp is brought to you by \ntheoCoding \u00A9 2017 \nThank you for downloading and please Rate my app!</string>
 </resources>

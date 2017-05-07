@@ -3,7 +3,6 @@ package com.example.a.theomusicapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,7 +10,7 @@ import android.widget.Toast;
 
 public class NowPlayingActivity extends AppCompatActivity {
     Boolean paused = true;
-    ImageView playPause;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +23,7 @@ public class NowPlayingActivity extends AppCompatActivity {
         TextView albumsNP = (TextView) findViewById(R.id.albumsNP);
         TextView songsNP = (TextView) findViewById(R.id.songsNP);
         TextView appInfoNP = (TextView) findViewById(R.id.appInfoNP);
-        playPause = (ImageView) findViewById(R.id.play_pause);
+        final ImageView playPause = (ImageView) findViewById(R.id.play_pause);
 
 
         //Set OnClickListeners
@@ -71,13 +70,12 @@ public class NowPlayingActivity extends AppCompatActivity {
         playPause.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Log.v("NowPlayingActivity", "You clicked play");
                 if (paused){
                     paused = false;
 
                     playPause.setImageResource(R.drawable.ic_pause_circle_outline_black_64dp);
 
-                } else{
+                } else {
                     paused = true;
                     playPause.setImageResource(R.drawable.ic_play_arrow_black_64dp);
                 }
@@ -86,4 +84,5 @@ public class NowPlayingActivity extends AppCompatActivity {
             }
         });
     }
+
 }
