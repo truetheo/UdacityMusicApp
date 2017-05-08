@@ -23,11 +23,10 @@
     </style>
     <style name="infoBox">
         <item name="android:background">@drawable/rounded_corner2</item>
-        <item name="android:textSize">18dp</item>
+        <item name="android:textSize">@dimen/infoBoxTextSize</item>
         <item name="android:textColor">@color/mainTextWhite</item>
-        <item name="android:padding">5dp</item>
+        <item name="android:padding">@dimen/infoBOxPadding</item>
         <item name="android:layout_margin">3dp</item>
-        <item name="android:gravity">fill</item>
     </style>
     <style name="generalBackground">
         <item name="android:background">@color/mainLightGray</item>
